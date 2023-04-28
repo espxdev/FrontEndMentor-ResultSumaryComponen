@@ -45,7 +45,7 @@ jsonData.forEach((elem) => {
     ulElement.appendChild(liElement);
 });
 
-const button = document.createElement('a');
+const button = document.createElement('button');
 button.classList.add('percents-side_button');
 button.innerText = 'Continue'; 
 sumary.appendChild(ulElement);
